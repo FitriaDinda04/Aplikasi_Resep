@@ -1,4 +1,4 @@
-import 'package:app/tombol.dart';
+import 'package:app/start.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -128,7 +128,7 @@ class _profilState extends State<profil> {
                     primary: Colors.red,
                   ),
                   onPressed: () {
-                    Navigator.of(context).push(MaterialPageRoute(builder: (_) => startScreen()));
+                    Navigator.of(context).push(MaterialPageRoute(builder: (_) => start()));
                   },
                   child: Text(
                     'Logout',
