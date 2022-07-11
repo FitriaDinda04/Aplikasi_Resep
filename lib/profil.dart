@@ -128,7 +128,7 @@ class _profilState extends State<profil> {
                     primary: Colors.red,
                   ),
                   onPressed: () {
-                    Navigator.of(context).push(MaterialPageRoute(builder: (_) => start()));
+                    Navigator.of(context).push(MaterialPageRoute(builder: (_) => startScreen()));
                   },
                   child: Text(
                     'Logout',
