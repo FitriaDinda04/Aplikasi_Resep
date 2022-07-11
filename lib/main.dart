@@ -1,7 +1,7 @@
 import 'package:app/Halaman_Admin.dart';
 import 'package:flutter/material.dart';
 
-import 'Halaman_Admin.dart';
+import 'splash.dart';
 
 void main() async {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: navAdmin(),
+      home: splashScreen(),
     );
   }
 }
